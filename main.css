@@ -1,0 +1,200 @@
+
+    a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote,
+body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog,
+div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form,
+header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark,
+menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s,
+samp, section, small, span, strike, strong, sub, summary, sup, table, tbody,
+td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+body, html{
+    background-color: black;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+menu, nav, section {
+    display: block
+}
+
+
+b, strong {
+    font-weight: 700
+}
+
+ol, ul {
+    list-style: none
+}
+
+li {
+    display: list-item;
+    list-style: none;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+caption, td, th {
+    font-weight: 400;
+    vertical-align: top;
+    text-align: left
+}
+
+q {
+    quotes: none
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    font-style: italic;
+}
+
+q:after, q:before {
+    content: '';
+    content: none
+}
+
+small, sub, sup {
+    font-size: 20%;
+}
+
+sub, sup {
+    line-height: 1;
+    left: -18px;
+    position: relative;
+    vertical-align: relative;
+}
+
+sub {
+    bottom: -.35em
+}
+
+sup {
+    top: -.80em;
+    font-size: 0.25em;
+    font-weight: 400;
+}
+
+svg {
+    overflow: hidden;
+}
+
+input, button, submit { 
+    border:none; }
+
+@font-face {
+    font-family: untitled;
+    src: url(assets/fonts/UntitledSerifTest-Regular.woff);
+}
+
+@font-face {
+    font-family: untitled-m;
+    src: url(assets/fonts/UntitledSerifTest-Medium.woff);
+}
+
+@font-face {
+    font-family: untitled-b;
+    src: url(assets/fonts/UntitledSerifTest-Bold.woff);
+}
+
+
+
+@font-face {
+    font-family: cinetype;
+    src: url(assets/fonts/GT-Cinetype-Trial-Mono.otf);
+}
+
+@font-face {
+    font-family: pitch;
+    src: url(assets/fonts/PitchSansTest-Regular.woff);
+}
+
+
+@font-face {
+    font-family: nb;
+    src: url(assets/fonts/NB-International-Mono-Webfont.ttf);
+}
+
+@font-face {
+    font-family: founders;
+    src: url(assets/fonts/FoundersGrotTest-Light.woff);
+}
+
+
+@font-face {
+    font-family: tiempos;
+    src: url(assets/fonts/TiemposFineTest-Light.woff);
+}
+
+@font-face {
+    font-family: basis;
+    src: url(assets/fonts/basis_grotesque_pro_regular.otf);
+}
+
+
+
+
+
+
+h1 {
+    color: white;
+    font-weight: 100;
+    line-height: .9;
+    letter-spacing: -0.05em;
+    font-size: 10vw;
+    font-family: "Times New Roman", "Arial", sans-serif;
+}
+
+
+.container{
+    position: fixed;
+    background: white;
+    margin-right: auto;
+    width: calc(100vw - 300px);
+    height: calc(100vh - 300px);
+    margin-top: 200px;
+    margin-left: 150px;
+    border-radius: 50%;
+}
+
+.feed{
+    position: relative;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 300px;
+}
+
+.title-1{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    
+}
+
+.title-2{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    
+}
